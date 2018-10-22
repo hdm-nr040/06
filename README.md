@@ -1,10 +1,10 @@
 # Gruppe06 | Startups in Stuttgart
 
-## Inhalte:
+## Inhalte
 
-### R-Datei:
+### R-Datei
 * StartupTeilnetzwerk.R 
-### csv-Dateien:
+### csv-Dateien
 * edgelist_final.csv 
 * nodelist.csv
 ### PDF-Datei
