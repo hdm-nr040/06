@@ -11,7 +11,6 @@ library(intergraph) # DatenÃ¼bergabe zwischen Bibliotheken
 
 el <- read.csv("https://raw.githubusercontent.com/hdm-nr040/06/master/edgelist_final.csv", header=T, as.is=T, sep = ",")
 nodes <- read.csv("https://raw.githubusercontent.com/hdm-nr040/06/master/nodelist.csv", header=T, as.is=T, sep = ",")
-# prüft, ob alle Vari
 
 head(el)
 head(nodes)
@@ -21,12 +20,7 @@ hties <-as.matrix(el)
 stuggi <- graph_from_data_frame(d=hties, vertices=nodes, directed=T)
 stuggi
 edge_density(stuggi)
-#0.02702703 entspricht 2,7 %
-transitivity(stuggi, type=c("global"))
-#nachher ausführen - kleine Welt-Phänomen, bei hohem Wert
-
-
-
+#0.02702703 entspricht 2,7
 
 E(stuggi)$color <- "pink"
 V(stuggi)[branche == "commerce"]$color <- "darkred"
