@@ -8,6 +8,7 @@
 * edgelist_final.csv 
 * nodelist.csv
 ### PDF-Datei
+* Codebuch_06.pdf
 * Netzwerke-Plakat_06.pdf
 * PräsentationStartup_Stuttgart_06.pdf
 ### PNG-Dateien
