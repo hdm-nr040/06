@@ -3,14 +3,12 @@
 ## Inhalte
 
 ### R-Datei
-* StartupTeilnetzwerk.R 
-* EntzerrteNetzwerke_GESAMT_TEIL.R
+* EntzerrtesGesamtnetzwerk_Teilnetzwerke.R
 ### csv-Dateien
 * edgelist_final.csv 
 * nodelist.csv
 ### PDF-Datei
-* Gruppe06_StartupsinStuttgart.pdf (Skizze)
+* Netzwerke-Plakat_06.pdf
+* PräsentationStartup_Stuttgart_06.pdf
 ### PNG-Dateien
 * Gesamtnetzwerk
-* Beratungsstartups
-* Fundingstartups
